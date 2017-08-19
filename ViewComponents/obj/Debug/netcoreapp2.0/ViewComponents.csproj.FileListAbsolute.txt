@@ -1,0 +1,9 @@
+c:\users\andrew.mallonee\documents\visual studio 2017\Projects\ViewComponents\ViewComponents\bin\Debug\netcoreapp2.0\ViewComponents.deps.json
+c:\users\andrew.mallonee\documents\visual studio 2017\Projects\ViewComponents\ViewComponents\bin\Debug\netcoreapp2.0\ViewComponents.dll
+c:\users\andrew.mallonee\documents\visual studio 2017\Projects\ViewComponents\ViewComponents\obj\Debug\netcoreapp2.0\ViewComponents.csproj.CoreCompileInputs.cache
+c:\users\andrew.mallonee\documents\visual studio 2017\Projects\ViewComponents\ViewComponents\obj\Debug\netcoreapp2.0\ViewComponents.AssemblyInfoInputs.cache
+c:\users\andrew.mallonee\documents\visual studio 2017\Projects\ViewComponents\ViewComponents\obj\Debug\netcoreapp2.0\ViewComponents.AssemblyInfo.cs
+c:\users\andrew.mallonee\documents\visual studio 2017\Projects\ViewComponents\ViewComponents\bin\Debug\netcoreapp2.0\ViewComponents.pdb
+c:\users\andrew.mallonee\documents\visual studio 2017\Projects\ViewComponents\ViewComponents\obj\Debug\netcoreapp2.0\ViewComponents.csprojResolveAssemblyReference.cache
+c:\users\andrew.mallonee\documents\visual studio 2017\Projects\ViewComponents\ViewComponents\obj\Debug\netcoreapp2.0\ViewComponents.dll
+c:\users\andrew.mallonee\documents\visual studio 2017\Projects\ViewComponents\ViewComponents\obj\Debug\netcoreapp2.0\ViewComponents.pdb
