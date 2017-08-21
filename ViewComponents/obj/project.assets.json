@@ -8733,6 +8733,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.AspNetCore.Mvc >= 2.0.0",
+      "Microsoft.AspNetCore.Mvc.TagHelpers >= 2.0.0",
       "Microsoft.AspNetCore.Razor.Tools >= 1.1.0-preview4-final",
       "Microsoft.NETCore.App >= 2.0.0",
       "Microsoft.NETCore.Targets.DNXCore >= 4.9.0"
@@ -8748,11 +8749,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\andrew.mallonee\\Documents\\Visual Studio 2017\\Projects\\ViewComponents\\ViewComponents\\ViewComponents.csproj",
+      "projectUniqueName": "C:\\TestProjects\\ViewComponents\\ViewComponents\\ViewComponents.csproj",
       "projectName": "ViewComponents",
-      "projectPath": "C:\\Users\\andrew.mallonee\\Documents\\Visual Studio 2017\\Projects\\ViewComponents\\ViewComponents\\ViewComponents.csproj",
+      "projectPath": "C:\\TestProjects\\ViewComponents\\ViewComponents\\ViewComponents.csproj",
       "packagesPath": "C:\\Users\\andrew.mallonee\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andrew.mallonee\\Documents\\Visual Studio 2017\\Projects\\ViewComponents\\ViewComponents\\obj\\",
+      "outputPath": "C:\\TestProjects\\ViewComponents\\ViewComponents\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -8787,6 +8788,10 @@
           "Microsoft.AspNetCore.Razor.Tools": {
             "target": "Package",
             "version": "1.1.0-preview4-final"
+          },
+          "Microsoft.AspNetCore.Mvc.TagHelpers": {
+            "target": "Package",
+            "version": "2.0.0"
           },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",

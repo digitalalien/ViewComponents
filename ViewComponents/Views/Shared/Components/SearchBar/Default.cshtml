@@ -1,3 +1,43 @@
 ﻿@model ViewComponents.Models.SearchBarViewModel
 
-<form asp-controller="@Model.ControllerName" asp-action="@Model.ActionName"
+<form asp-controller="@Model.ControllerName" asp-action="@Model.ActionName" method="@Model.FormMethod">
+    <ul class="searchPanel sampleSearchPanel">
+        <li class="searchTitle">
+            <span>@Model.HeaderText</span>
+        </li>
+        @foreach (var item in Model.Items)
+        {
+            <li>
+                @item.InputType
+            </li>
+        }
+        <li class="primaryLabel">
+            <span>Patient Name</span>
+        </li>
+        <li>
+            <input id="patientName" type="text">
+        </li>
+        <li class="primaryLabel">
+            <span>Some Date</span>
+        </li>
+        <li>
+            <span class="subLabel">From</span>
+        </li>
+        <li>
+            <div class="datePicker">
+                <input id="fromDate" type="text" data-hinttext="mm/dd/yyyy" class="hasDatepicker hintText"><img class="ui-datepicker-trigger calendarImage" src="/Images/transparent.gif" alt="Show Calendar" title="Show Calendar">
+            </div><div class="clearfix"></div>
+        </li>
+        <li>
+            <span class="subLabel">To</span>
+        </li>
+        <li>
+            <div class="datePicker">
+                <input id="toDate" type="text" data-hinttext="mm/dd/yyyy" class="hasDatepicker hintText"><img class="ui-datepicker-trigger calendarImage" src="/Images/transparent.gif" alt="Show Calendar" title="Show Calendar">
+            </div><div class="clearfix"></div>
+        </li>
+        <li>
+            <input type="submit" value="Search" onclick="return false;" id="btnSearch" class="mediumDefaultButton">
+        </li>
+    </ul>
+</form>

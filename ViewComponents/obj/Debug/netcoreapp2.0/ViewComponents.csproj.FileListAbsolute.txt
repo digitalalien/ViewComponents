@@ -7,3 +7,12 @@ c:\users\andrew.mallonee\documents\visual studio 2017\Projects\ViewComponents\Vi
 c:\users\andrew.mallonee\documents\visual studio 2017\Projects\ViewComponents\ViewComponents\obj\Debug\netcoreapp2.0\ViewComponents.csprojResolveAssemblyReference.cache
 c:\users\andrew.mallonee\documents\visual studio 2017\Projects\ViewComponents\ViewComponents\obj\Debug\netcoreapp2.0\ViewComponents.dll
 c:\users\andrew.mallonee\documents\visual studio 2017\Projects\ViewComponents\ViewComponents\obj\Debug\netcoreapp2.0\ViewComponents.pdb
+C:\TestProjects\ViewComponents\ViewComponents\obj\Debug\netcoreapp2.0\ViewComponents.csprojResolveAssemblyReference.cache
+C:\TestProjects\ViewComponents\ViewComponents\obj\Debug\netcoreapp2.0\ViewComponents.csproj.CoreCompileInputs.cache
+C:\TestProjects\ViewComponents\ViewComponents\obj\Debug\netcoreapp2.0\ViewComponents.AssemblyInfoInputs.cache
+C:\TestProjects\ViewComponents\ViewComponents\obj\Debug\netcoreapp2.0\ViewComponents.AssemblyInfo.cs
+C:\TestProjects\ViewComponents\ViewComponents\obj\Debug\netcoreapp2.0\ViewComponents.dll
+C:\TestProjects\ViewComponents\ViewComponents\obj\Debug\netcoreapp2.0\ViewComponents.pdb
+C:\TestProjects\ViewComponents\ViewComponents\bin\Debug\netcoreapp2.0\ViewComponents.deps.json
+C:\TestProjects\ViewComponents\ViewComponents\bin\Debug\netcoreapp2.0\ViewComponents.dll
+C:\TestProjects\ViewComponents\ViewComponents\bin\Debug\netcoreapp2.0\ViewComponents.pdb

@@ -26,15 +26,8 @@ namespace ViewComponentTest
         {
             services.AddMvc();
             //TODO: Can we add all components at one time instead of individually?
-            var assembly = typeof(ViewComponents.SideNav).GetTypeInfo().Assembly;
-            var embeddedFileProvider = new EmbeddedFileProvider(
-                assembly,
-                "ViewComponents"
-            );
-            services.Configure<RazorViewEngineOptions>(options =>
-            {
-                options.FileProviders.Add(embeddedFileProvider);
-            });
+            AddEmbeddedFileProviderForAssembly(services, typeof(ViewComponents.SideNav).GetTypeInfo().Assembly, "ViewComponents");
+            AddEmbeddedFileProviderForAssembly(services, typeof(ViewComponents.SearchBar).GetTypeInfo().Assembly, "ViewComponents");
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -57,6 +50,18 @@ namespace ViewComponentTest
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
+            });
+        }
+
+        private void AddEmbeddedFileProviderForAssembly(IServiceCollection services, Assembly assembly, string nameSpace)
+        {
+            var embeddedFileProvider = new EmbeddedFileProvider(
+                assembly,
+                nameSpace
+            );
+            services.Configure<RazorViewEngineOptions>(options =>
+            {
+                options.FileProviders.Add(embeddedFileProvider);
             });
         }
     }

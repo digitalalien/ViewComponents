@@ -5122,6 +5122,7 @@
         "framework": ".NETCoreApp,Version=v2.0",
         "dependencies": {
           "Microsoft.AspNetCore.Mvc": "2.0.0",
+          "Microsoft.AspNetCore.Mvc.TagHelpers": "2.0.0",
           "Microsoft.AspNetCore.Razor.Tools": "1.1.0-preview4-final",
           "Microsoft.NETCore.Targets.DNXCore": "4.9.0"
         },
@@ -13267,6 +13268,8 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.AspNetCore.All >= 2.0.0",
+      "Microsoft.AspNetCore.Mvc.TagHelpers >= 2.0.0",
+      "Microsoft.AspNetCore.Razor.Tools >= 1.1.0-preview4-final",
       "Microsoft.NETCore.App >= 2.0.0",
       "ViewComponents >= 1.0.0"
     ]
@@ -13281,11 +13284,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\andrew.mallonee\\Documents\\Visual Studio 2017\\Projects\\ViewComponents\\ViewComponentTest\\ViewComponentTest.csproj",
+      "projectUniqueName": "C:\\TestProjects\\ViewComponents\\ViewComponentTest\\ViewComponentTest.csproj",
       "projectName": "ViewComponentTest",
-      "projectPath": "C:\\Users\\andrew.mallonee\\Documents\\Visual Studio 2017\\Projects\\ViewComponents\\ViewComponentTest\\ViewComponentTest.csproj",
+      "projectPath": "C:\\TestProjects\\ViewComponents\\ViewComponentTest\\ViewComponentTest.csproj",
       "packagesPath": "C:\\Users\\andrew.mallonee\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andrew.mallonee\\Documents\\Visual Studio 2017\\Projects\\ViewComponents\\ViewComponentTest\\obj\\",
+      "outputPath": "C:\\TestProjects\\ViewComponents\\ViewComponentTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13306,8 +13309,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\andrew.mallonee\\Documents\\Visual Studio 2017\\Projects\\ViewComponents\\ViewComponents\\ViewComponents.csproj": {
-              "projectPath": "C:\\Users\\andrew.mallonee\\Documents\\Visual Studio 2017\\Projects\\ViewComponents\\ViewComponents\\ViewComponents.csproj"
+            "C:\\TestProjects\\ViewComponents\\ViewComponents\\ViewComponents.csproj": {
+              "projectPath": "C:\\TestProjects\\ViewComponents\\ViewComponents\\ViewComponents.csproj"
             }
           }
         }
@@ -13321,6 +13324,14 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Razor.Tools": {
+            "target": "Package",
+            "version": "1.1.0-preview4-final"
+          },
+          "Microsoft.AspNetCore.Mvc.TagHelpers": {
+            "target": "Package",
+            "version": "2.0.0"
+          },
           "Microsoft.NETCore.App": {
             "target": "Package",
             "version": "2.0.0",

@@ -11,3 +11,16 @@ c:\users\andrew.mallonee\documents\visual studio 2017\Projects\ViewComponents\Vi
 c:\users\andrew.mallonee\documents\visual studio 2017\Projects\ViewComponents\ViewComponentTest\obj\Debug\netcoreapp2.0\ViewComponentTest.AssemblyInfo.cs
 c:\users\andrew.mallonee\documents\visual studio 2017\Projects\ViewComponents\ViewComponentTest\obj\Debug\netcoreapp2.0\ViewComponentTest.dll
 c:\users\andrew.mallonee\documents\visual studio 2017\Projects\ViewComponents\ViewComponentTest\obj\Debug\netcoreapp2.0\ViewComponentTest.pdb
+C:\TestProjects\ViewComponents\ViewComponentTest\bin\Debug\netcoreapp2.0\ViewComponentTest.deps.json
+C:\TestProjects\ViewComponents\ViewComponentTest\bin\Debug\netcoreapp2.0\ViewComponentTest.runtimeconfig.json
+C:\TestProjects\ViewComponents\ViewComponentTest\bin\Debug\netcoreapp2.0\ViewComponentTest.runtimeconfig.dev.json
+C:\TestProjects\ViewComponents\ViewComponentTest\bin\Debug\netcoreapp2.0\ViewComponentTest.dll
+C:\TestProjects\ViewComponents\ViewComponentTest\bin\Debug\netcoreapp2.0\ViewComponentTest.pdb
+C:\TestProjects\ViewComponents\ViewComponentTest\bin\Debug\netcoreapp2.0\ViewComponents.dll
+C:\TestProjects\ViewComponents\ViewComponentTest\bin\Debug\netcoreapp2.0\ViewComponents.pdb
+C:\TestProjects\ViewComponents\ViewComponentTest\obj\Debug\netcoreapp2.0\ViewComponentTest.csprojResolveAssemblyReference.cache
+C:\TestProjects\ViewComponents\ViewComponentTest\obj\Debug\netcoreapp2.0\ViewComponentTest.csproj.CoreCompileInputs.cache
+C:\TestProjects\ViewComponents\ViewComponentTest\obj\Debug\netcoreapp2.0\ViewComponentTest.AssemblyInfoInputs.cache
+C:\TestProjects\ViewComponents\ViewComponentTest\obj\Debug\netcoreapp2.0\ViewComponentTest.AssemblyInfo.cs
+C:\TestProjects\ViewComponents\ViewComponentTest\obj\Debug\netcoreapp2.0\ViewComponentTest.dll
+C:\TestProjects\ViewComponents\ViewComponentTest\obj\Debug\netcoreapp2.0\ViewComponentTest.pdb

@@ -14,15 +14,14 @@ namespace ViewComponentTest.Controllers
         public IActionResult Index()
         {
             var SideNavItems = new List<MenuItemViewModel>();
-            
+
             SideNavItems.Add(new MenuItemViewModel("Home", "Home"));
             SideNavItems.Add(new MenuItemViewModel("Email", "#"));
             SideNavItems.Add(new MenuItemViewModel("Something", "#"));
             SideNavItems.Add(new MenuItemViewModel("Something Else", "#"));
-            
-            var viewModel = new MenuViewModel(SideNavItems);
 
-            return View(viewModel);
+            var searchBar = new SearchBarViewModel("Home", "Get", "post");
+            return View(searchBar);
         }
 
         public IActionResult About()

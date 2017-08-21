@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace ViewComponents
 {
-    class SearchBar : ViewComponent
+    public class SearchBar : ViewComponent
     {
 
         public async Task<IViewComponentResult> InvokeAsync()
         {
-            
+            return View();
         }
     }
 }

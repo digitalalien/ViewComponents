@@ -7,6 +7,10 @@
 
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        <link type="text/css" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/smoothness/jquery-ui.css" rel="stylesheet">
+        <link type="text/css" href="https://www.zirmed.com/Static/MainHeader/2.0/CSS/MainHeader.css" rel="stylesheet">
+        <link type="text/css" href="https://www.zirmed.com/Static/CSS/body.css" rel="stylesheet">
+        <link href="https://www.zirmed.com/Static/WebControls/2.0/CSS/WebControls.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="~/css/site.css" />
     </environment>
     <environment exclude="Development">
@@ -17,28 +21,8 @@
     </environment>
 </head>
 <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <vc:side-nav menu="Model"></vc:side-nav>
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">ViewComponentTest</a>
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
     <div class="container body-content">
+        <vc:search-bar></vc:search-bar>
         @RenderBody()
         <hr />
         <footer>

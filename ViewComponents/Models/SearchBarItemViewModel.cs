@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ViewComponents.Models.Enums;
 
 namespace ViewComponents.Models
 {
@@ -13,7 +14,7 @@ namespace ViewComponents.Models
         public string PlaceHolderText { get; }
         public string Text { get; }
 
-        public SearchBarItemViewModel(string id, string inputType, string labelText = "", string placeHolderText = "", string text = "")
+        public SearchBarItemViewModel(string id, InputTypes inputType, string labelText = "", string placeHolderText = "", string text = "")
         {
             Id = id;
             InputType = inputType;
